@@ -20,3 +20,8 @@ def test_calculate_input_of_one_returns_one():
     value = calculate(1)
 
     assert 1 == value
+
+def test_multiple_of_three():
+    value =calculate(6)
+
+    assert "Fizz" == value
