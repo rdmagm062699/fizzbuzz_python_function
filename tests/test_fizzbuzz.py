@@ -22,6 +22,11 @@ def test_calculate_input_of_one_returns_one():
     assert 1 == value
 
 def test_multiple_of_three():
-    value =calculate(6)
+    value = calculate(6)
 
     assert "Fizz" == value
+
+def test_multiple_of_five():
+    value = calculate(10)
+
+    assert "Buzz" == value
