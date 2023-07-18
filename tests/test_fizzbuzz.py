@@ -15,3 +15,8 @@ def test_multiple_of_three_and_five_fizzbuzz():
     value = calculate(15)
 
     assert  "FizzBuzz" == value
+
+def test_calculate_input_of_one_returns_one():
+    value = calculate(1)
+
+    assert 1 == value
