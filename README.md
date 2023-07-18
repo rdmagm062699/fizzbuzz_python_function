@@ -22,3 +22,5 @@ based on the input parameter:
 * If the input parameter is a multiple of 3 and 5 then return the string "FizzBuzz"
 * If the input paramter does not meet any of the 3 previous scenarios then just simply return
 the input paramter
+
+To run the tests simply execute `make tests`
